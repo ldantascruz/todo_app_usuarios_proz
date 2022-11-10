@@ -1,16 +1,19 @@
-# todo_app
+# Desafio Flutter Proz
 
-A new Flutter project.
+Um novo projeto, para criação e leitura de usuários consumindo API.
 
-## Getting Started
+Projeto utilizou a biblioteca HTTP para fazer as chamadas na API crudcrud.
 
-This project is a starting point for a Flutter application.
+## Como rodar o projeto?
+1 - Clone o aplicativo para a sua máquina. <br>
+2 - Abra o terminal e execute o comando: 'flutter pub get' <br>
+3 - Abra o site: https://crudcrud.com/ <br>
+4 - No site clique em "Check Endpoint Information" <br>
+5 - Copie o seu endpoint <br>
+6 - Dentro do seu códiigo, vá até: lib/src/repository/user_repository.dart <br>
+7 - Dentro das url's, copie a sua url seguido o modelo: https://crudcrud.com/api/<seu_endpoint>/users/ <br>
+    Exemplo: https://crudcrud.com/api/d2abc14797a54e9f89b220784285d9d6/users/ - Esse foi o meu caso <br>
+8 - Abra o emulador, ou o conexte o celular (com depuração USB ativada) <br>
+8 - No terminal digite: 'flutter run' <br>
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Agora pode testar o app!! 
