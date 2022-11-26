@@ -12,7 +12,8 @@ abstract class IUserRepository {
 
 class UserRepository implements IUserRepository {
   final _http = Client();
-  final _headers = {"Content-Type": "application/json"};
+  final _headers = {"Content-Type": "application/json"
+  };
 
   @override
   Future<void> createUser(UserModel user) async {
